@@ -1,0 +1,4 @@
+DirectoryIndex index.html
+<FilesMatch "^(?!index\.html$).*$">
+    Require all denied
+</FilesMatch>
